@@ -25,8 +25,8 @@ export default function Navbar() {
           <Typography variant="h6" className={classes.title}>
             Ryan Flynn | Full-Stack Engineer
           </Typography>
-          <Button color="inherit">Github</Button>
-          <Button color="inherit">Resume</Button>
+          <Button onClick={() => {window.open('https://github.com/ryanflynndev')}} color="inherit">Github</Button>
+          <Button onClick={() => window.open('https://www.linkedin.com/in/ryanflynnofficial/')} color="inherit">Linkedin</Button>
         </Toolbar>
       </AppBar>
     </div>
