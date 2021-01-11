@@ -27,6 +27,7 @@ export default function Navbar() {
           </Typography>
           <Button onClick={() => {window.open('https://github.com/ryanflynndev')}} color="inherit">Github</Button>
           <Button onClick={() => window.open('https://www.linkedin.com/in/ryanflynnofficial/')} color="inherit">Linkedin</Button>
+          <Button onClick={() => window.open('https://ryanflynndev.medium.com/')} color="inherit">Medium</Button>
         </Toolbar>
       </AppBar>
     </div>
